@@ -50,11 +50,12 @@ Web service memungkinkan aplikasi untuk saling berkomunikasi melalui jaringan. S
      ```
    - Install package yang diperlukan di virtual environment.
 
-3. **Install Pustaka Spyne:**
+3. **Install Pustaka Spyne dan lxml:**
    - Buka terminal di PythonAnywhere dengan memilih menu **Consoles** > **New Console** > **Bash**.
-   - Install pustaka **Spyne** dengan perintah:
+   - Install pustaka **Spyne** dan **lxml** dengan perintah:
      ```
      pip install spyne
+     pip install lxml
      ```
 
 4. **Membuat Web Service Data Buku:**
@@ -104,8 +105,9 @@ Web service memungkinkan aplikasi untuk saling berkomunikasi melalui jaringan. S
    - Edit file WSGI di `/var/www/yourusername_pythonanywhere_com_wsgi.py` untuk menjalankan aplikasi:
      ```python
      import sys
+     sys.path.insert(0, '/home/yourusername/.virtualenvs/myenv/lib/python3.9/site-packages')
      sys.path.insert(0, '/home/yourusername')
-
+    
      from soap_buku import wsgi_app as application
      ```
 
