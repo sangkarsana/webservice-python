@@ -1,4 +1,4 @@
-Modul ajar implementasi web service sederhana dengan SOAP di PythonAnywhere dengan studi kasus **data buku**. Modul ini meliputi pendaftaran akun di PythonAnywhere, pengaturan lingkungan, dan pengembangan web service sederhana menggunakan **Python** dengan pustaka **Spyne**. Kamu bisa langsung menyalin modul ini ke Google Docs.
+Modul ajar implementasi web service sederhana dengan SOAP di PythonAnywhere dengan studi kasus **data buku**. Modul ini meliputi pendaftaran akun di PythonAnywhere, pengaturan lingkungan, dan pengembangan web service sederhana menggunakan **Python** dengan pustaka **Spyne**.
 
 ---
 
